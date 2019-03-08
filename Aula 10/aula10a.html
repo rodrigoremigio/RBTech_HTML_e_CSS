@@ -1,0 +1,28 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Aula 10a Formulários</title>
+		<meta charset="utf-8"/>
+		<link rel="stylesheet" type="text/css" href="estilos.css"/>
+	</head>
+	<body>
+		<!-- Um formulário precisa de, no mínimo, dois atributos que são fundamentais: action e method(post ou get)-->
+		<!-- ACTION: Destino onde vai ser processado o formulário-->
+		<!-- METHOD: A forma como essas informações serão enviadas para a página colocada na ACTION-->
+		<!-- METHOD get: Envia as informações de forma que o navegador consiga mostrá-las no endereço da página-->
+		<!-- METHOD post: Envia as informações em background, escondidas na página, para que só a linguagem de programação da página da action consiga ver as informações-->
+		<form action="" method="get">
+			<label for="nome">Nome:</label>
+			<input id="nome" type="text" placeholder="Digite seu nome" name="Nome"/>
+			<label for="opcao">Você gostou do site:</label>
+			<input id="opcao" type="radio" name="opcao" value="sim"/>Sim
+			<input id="opcao" type="radio" name="opcao" value="nao"checked="checked"/>Não <!-- "Checked": Opção já vem marcada-->
+			<label for="linguagem">Você quer aprender mais sobre:</label>
+			<input type="checkbox" name="html"/>HTML
+			<input type="checkbox" name="css"/>CSS
+			<textarea name="msg"></textarea>
+			<input type="submit" value="Enviar"/>
+		</form>
+		
+	</body>
+</html>
