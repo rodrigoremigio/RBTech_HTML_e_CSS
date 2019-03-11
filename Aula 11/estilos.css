@@ -1,0 +1,14 @@
+h1{
+	color: #ff6600;
+	letter-spacing: -1px;
+	text-transform: capitalize; /*uppercase: MAIÚSCULO; lowercase: MINÚSCULO; capitalize: PRIMREIRA LETRA MAIÚSCULA*/
+	width: 650px;
+	font-family: 'Roboto Condensed', sans-serif;
+	/*text-shadow: 2px -2px 4px black; --> Sombra. 1º: eixo X (hori), 2º: eixo y (vert), 3º: desfoque, 4º: cor*/
+}
+p{
+	text-indent: 50px; /*Parágrafo, identação*/
+	width: 650px;
+	font-size: 18px;
+	font-family: verdana, arial, sans serif; 
+}
